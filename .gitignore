@@ -13,6 +13,7 @@ __pycache__/
 # Data and Results
 *.txt
 !rag_results.txt
+!requirements.txt
 *.csv
 *.json
 *.log
