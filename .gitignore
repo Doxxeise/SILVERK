@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and Models
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+
+# Data and Results
+*.txt
+!rag_results.txt
+*.csv
+*.json
+*.log
+data/
+outputs/
+results/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS Data
+.DS_Store
+Thumbs.db
